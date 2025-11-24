@@ -51,11 +51,6 @@ The implementation uses a single Sentry instance initialized with the old DSN, a
 
 Check your Sentry projects to verify that events are being received in the correct projects.
 
-## DSNs Used
-
-- Old DSN: `https://514d5e38a4003c2cf958c53c77679925@o4508236363464704.ingest.us.sentry.io/4508847444918272`
-- New DSN: `https://b65dc9ea7dcf8a6783495ff281d34451@o4508236363464704.ingest.us.sentry.io/4510420977123328`
-
 ## References
 
 - [GitHub Issue: Multi DSN per Java Application support](https://github.com/getsentry/sentry-java/issues/2736)
