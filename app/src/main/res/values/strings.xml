@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sentry Multi DSN</string>
+    <string name="old_version_title">Old Version UI</string>
+    <string name="new_version_title">New Version UI</string>
+    <string name="trigger_error">Trigger Error</string>
+    <string name="capture_message">Capture Message</string>
+</resources>
+

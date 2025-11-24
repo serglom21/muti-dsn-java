@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Old Version Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/old_version_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="#FFE0E0E0"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnOldError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trigger_error"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnOldMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capture_message"
+        android:layout_marginBottom="32dp" />
+
+    <!-- New Version Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_version_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="#FFE0F0E0"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnNewError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trigger_error"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnNewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capture_message" />
+
+</LinearLayout>
+
